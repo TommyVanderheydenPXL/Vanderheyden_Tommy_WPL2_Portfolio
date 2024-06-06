@@ -1,0 +1,311 @@
+html {
+    background-color: #EDEBFA;
+    scroll-behavior: smooth;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #809BC4;
+    padding-top: 20px;
+    text-align: center;
+    z-index: 4;
+}
+.nav-link {
+    color: #DCEAF9;
+    text-decoration: none;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+a:hover {
+    color: #F5CFE9;
+    text-decoration:none;
+    cursor:pointer;
+}
+.over-sectie {
+    position: relative;
+    top: 225px;
+    left: 125px;
+    width: 1600px;
+    height: 550px;
+    background-color: #B9B0D6;
+    border-radius: 35px;
+}
+.profiel-foto {
+    position: relative;
+    border-radius: 45px;
+    left: 70px;
+    top: 50px;
+    padding: 20px;
+    width: 23%;
+    height: 75%;
+}
+.over-mij {
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    width: 750px;
+    height: 250px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    z-index: 3;
+}
+.contact-text {
+    text-decoration: none;
+    color: #DCEAF9;
+}
+.contact-text:hover {
+    text-decoration: none;
+    color: #F5CFE9;
+}
+.Achtergrond-Home {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 1903px;
+    height: 891px;
+    z-index: 1;
+}
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.over {
+    position: absolute;
+    top: 891px;
+    left: 0;
+    z-index: 0;
+}
+.welkom {
+    position: relative;
+    top: 550px;
+    left: 120px;
+    z-index: 3;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+.achtergrondkleur-welkom {
+    position: relative;
+    top: 380px;
+    left: 80px;
+    width: 400px;
+    height: 155px;
+    padding-left: 40px;
+    padding-top: 1px;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 35px;
+    z-index: 2;
+}
+.werk {
+    position: relative;
+    top: 1830px;
+}
+.werk-titel {
+    position: relative;
+    width: 150px;
+    top: 150px;
+    left: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+}
+.werk-background {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 1350px;
+    height: 1720px;
+    background-color: #B9B0D6;
+    border-radius: 35px;
+}
+.werk-flexbox-row1 {
+    position: absolute;
+    width: 450px;
+    top: 205px;
+    left: 350px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.werk-flexbox-row2 {
+    position: relative;
+    top: 135px;
+    width: 275px;
+    left: 1150px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.project-foto1 {
+    width: 100%;
+}
+.project-foto2 {
+    width: 100%;
+}
+.project-foto3 {
+    width: 100%;
+}
+.project-foto4 {
+    width: 78%;
+}
+.project-foto5 {
+    width: 130%;
+}
+.project-foto6 {
+    width: 100%;
+}
+.wpl-sectie {
+    position: relative;
+    top: 2291px;
+}
+.wpl-projecten {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 1350px;
+    height: 1270px;
+    background-color: #B9B0D6;
+    border-radius: 35px;
+}
+.projecten-wpl1 {
+    position: absolute;
+    width: 450px;
+    top: 105px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.projecten-wpl2 {
+    position: relative;
+    top: 35px;
+    width: 275px;
+    left: 850px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.foto-wpl1 {
+    width: 100%;
+}
+.foto-wpl2 {
+    width: 100%;
+}
+.foto-wpl3 {
+    width: 100%;
+}
+.foto-wpl4 {
+    width: 150%;
+}
+.foto-wpl5 {
+    position: relative;
+    top: 55px;
+    width: 150%;
+}
+.project-titel5 {
+    position: relative;
+    top: 55px;
+}
+.foto-wpl6 {
+    position: relative;
+    top: 80px;
+    width: 150%;
+}
+.project-titel6 {
+    position: relative;
+    top: 80px;
+}
+.wpl-titel {
+    position: relative;
+    width: 200px;
+    top: 50px;
+    left: 100px;
+    font-family: Arial, sans-serif;
+}
+.reflectie-sectie {
+    position: relative;
+    top: 3750px;
+}
+.eindreflectie {
+    position: relative;
+    top: 125px;
+    left: 700px;
+    width: 500px;
+    height: 1450px;
+    font-family: Arial, sans-serif;
+}
+.background-eindreflectie {
+    position: absolute;
+    top: 75px;
+    left: 650px;
+    width: 600px;
+    height: 1435px;
+    border-radius: 35px;
+    background-color: #B9B0D6;
+}
+.contact-sectie {
+    position: relative;
+    top: 4000px;
+}
+.contact-title {
+    position: relative;
+}
+.contact-background {
+    position: relative;
+    background-color: #B9B0D6;
+    left: 725px;
+    width: 450px;
+    height: 350px;
+    border-radius: 35px;
+    font-family: Arial, sans-serif;
+}
+.contact-info {
+    position: relative;
+    top: 25px;
+    left: 45px;
+}
+.contact-titel {
+    font-size: 25px;
+}
+footer {
+    position: absolute;
+    top: 7700px;
+    left: 0;
+    background-color: #809BC4;
+    width: 100%;
+    height: 85px;
+}
+.copyright-text {
+    position: relative;
+    width: 550px;
+    height: 25px;
+    top: 15px;
+    left: 15px;
+    font-family: Arial, sans-serif;
+}
+.social-links {
+    position: relative;
+    display: flex;
+    left: 1725px;
+    width: 125px;
+    
+}
+.instagram {
+    position: relative;
+    width: 27%;
+    left: 10px;
+}
+.vimeo {
+    position: relative;
+    width: 27%;
+    left: 20px;
+}
+
+
