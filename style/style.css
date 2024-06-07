@@ -229,13 +229,79 @@ a:hover {
     left: 100px;
     font-family: Arial, sans-serif;
 }
-.reflectie-sectie {
+.wpl2-sectie {
     position: relative;
     top: 3750px;
 }
+.wpl2titel {
+    position: relative;
+    width: 200px;
+    top: 150px;
+    left: 100px;
+    font-family: Arial, sans-serif;
+}
+.wpl2-projecten {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 1500px;
+    height: 1570px;
+    background-color: #B9B0D6;
+    border-radius: 35px;
+}
+.case {
+    position: absolute;
+    top:155px;
+    left: 450px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.projecten-wpl2-1 {
+    position: absolute;
+    width: 450px;
+    top: 405px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.projecten-wpl2-2 {
+    position: relative;
+    top: 335px;
+    width: 275px;
+    left: 850px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.foto-wpl2-1 {
+    width: 70%;
+}
+.foto-wpl2-2 {
+    width: 75%;
+}
+.foto-wpl2-3 {
+    width: 200%;
+}
+.foto-wpl2-4 {
+    position: relative;
+    top: 55px;
+    width: 200%;
+}
+.aandeel {
+    position: absolute;
+    top:1355px;
+    left: 125px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.reflectie-sectie {
+    position: relative;
+    top: 5450px;
+}
 .eindreflectie {
     position: relative;
-    top: 125px;
+    top: 150px;
     left: 700px;
     width: 500px;
     height: 1450px;
@@ -243,16 +309,29 @@ a:hover {
 }
 .background-eindreflectie {
     position: absolute;
-    top: 75px;
+    top: 100px;
     left: 650px;
     width: 600px;
     height: 1435px;
     border-radius: 35px;
     background-color: #B9B0D6;
 }
+.reflectie2-sectie {
+    position: relative;
+    top: 5550px;
+}
+.background-eindreflectie2 {
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    width: 600px;
+    height: 2155px;
+    border-radius: 35px;
+    background-color: #B9B0D6;
+}
 .contact-sectie {
     position: relative;
-    top: 4000px;
+    top: 6400px;
 }
 .contact-title {
     position: relative;
@@ -276,7 +355,7 @@ a:hover {
 }
 footer {
     position: absolute;
-    top: 7700px;
+    top: 11500px;
     left: 0;
     background-color: #809BC4;
     width: 100%;
@@ -295,7 +374,6 @@ footer {
     display: flex;
     left: 1725px;
     width: 125px;
-    
 }
 .instagram {
     position: relative;
